@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+     padding: 0;
+      box-sizing: border-box;
+}
+
+.cabecalho{ display: flex;
+    justify-content: space-between;
+     align-items: center;
+       background-color:black;
+       color: white;
+         height: 10vh;
+         padding: 0 32px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.banner{
+      background-color: crimson;
+}
+button{
+    background-color: cornflowerblue;
+}
+.catologo{
+    background-color: mediumspringgreen;
+}
+img{
+    height: 100px;
+}
+.produto{
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+       align-items: center;
+}
