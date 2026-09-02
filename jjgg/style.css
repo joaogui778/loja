@@ -11,6 +11,7 @@
        color: white;
          height: 10vh;
          padding: 0 32px;
+          
 }
 a{
     color: white;
@@ -18,19 +19,45 @@ a{
 }
 .banner{
       background-color: crimson;
+       height: 200px;
+        display: flex;
+         justify-content: center;
+          flex-direction: column;
+           text-align: center;
 }
 button{
     background-color: cornflowerblue;
+     flex-direction: row;
+       height: 40px;
 }
 .catologo{
-    background-color: mediumspringgreen;
+    background-color: rgb(77, 13, 13);
+      
+        
+       
+       
 }
 img{
-    height: 100px;
+    height: 140px;
+      width: 110px;
+    
 }
 .produto{
     display: flex;
      flex-direction: column;
      justify-content: center;
        align-items: center;
+        text-align: center;
+         padding: 50px;
 }
+.botao{
+    padding: 10px;
+}
+.produtos{
+    display: flex;
+}
+ .rodape{
+     display: flex;
+       justify-content: space-between;
+         
+ }
